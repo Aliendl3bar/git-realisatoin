@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-image:url(assets/Visions\ of\ Grandeur.jpg);
+    background:rgb(171, 81, 81);
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -38,7 +38,7 @@ main{
 }
 
 footer{
-    background-image: url(assets/Visions\ of\ Grandeur.jpg);
+    background :rgb(171, 81, 81);
     color: white;
     text-align: center;
     padding: 30px 0;
