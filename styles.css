@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(172, 152, 115, 0.411);
+    background-color: rgba(118, 105, 84, 0.411);
     margin: 0;
     padding: 0;
     
@@ -21,7 +21,7 @@ main{
 }
 
 .card {
-    background: #95a2b1;
+    background: #babfc4;
     border-radius: 12px;
     box-shadow: 0 20px 20px rgba(0, 22, 129, 0.374);
     padding: 24px;
