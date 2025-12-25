@@ -1,0 +1,108 @@
+body{
+    background-color: rgba(172, 152, 115, 0.411);
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background-image:url(assets/Visions\ of\ Grandeur.jpg);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+main{
+
+    margin: 20px 100px 50px 100px;
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
+    align-content: center;
+}
+
+.card {
+    background: #95a2b1;
+    border-radius: 12px;
+    box-shadow: 0 20px 20px rgba(0, 22, 129, 0.374);
+    padding: 24px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+.card:hover {
+    box-shadow: 0 20px 20px rgba(22, 118, 197, 0.174);
+    transform: translateY(-4px);
+    transition: all 0.3s ease;
+}
+
+footer{
+    background-image: url(assets/Visions\ of\ Grandeur.jpg);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+a{
+    color: rgb(221, 239, 235);
+    
+}
+a:hover{
+    color: rgb(188, 209, 131);
+    
+}
+
+
+h2{
+    border-bottom: 2px solid white;
+    padding-bottom: 6px;
+    font-size: 24px;
+    font-weight:900;
+}
+
+
+table {
+	display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    background: #e3e8ef;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,22,129,0.08);
+}
+
+th, td {
+    padding: 10px 16px;
+    text-align: left;
+}
+
+th {
+    background: #6c7a89;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+tr {
+    border-bottom: 1px solid #bfc9d4;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    color: #222;
+}
+
+
+tr:hover td {
+    background: #d6e0f0;
+}
+
+
